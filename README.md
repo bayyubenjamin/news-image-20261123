@@ -1,6 +1,8 @@
 # news-image-20261123 — World News in One Image
 
-[![make.fun bounty](https://img.shields.io/badge/make.fun-news--image--20261123-blue)](https://make.fun/bounty/news-image-20261123)
+[![make.fun · news-image-20261123](https://make.fun/badge/news-image-20261123.svg)](https://make.fun/bounty/news-image-20261123?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261123)
+[![rank](https://make.fun/badge/news-image-20261123/bayyubenjamin/news-image-20261123/rank.svg)](https://make.fun/bounty/news-image-20261123/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261123)
+[![reward](https://make.fun/badge/news-image-20261123/bayyubenjamin/news-image-20261123/reward.svg)](https://make.fun/bounty/news-image-20261123?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261123)
 
 A single 1024x1024 newspaper front page summing up 23 November 2026:
 COP31 collapses with no deal, two tankers hit in the Strait of Hormuz,
@@ -30,14 +32,14 @@ sha256sum /tmp/out1/entry.png /tmp/out2/entry.png  # must be identical
 ```
 
 The image is deterministic: two runs produce byte-identical output
-(16,253 bytes, 1024x1024, well under the 1 MiB limit).
+(16,566 bytes, 1024x1024, well under the 1 MiB limit).
 
 ## Verified 23 Nov 2026
 
 - Two runs into separate output dirs: sha256
-  `827ca1bd3e2472da3642ab3227f9dddd84acca80d40bbe1c90c5606450c60f91`
+  `e72a5c30d3808db18282485b57fcade75147ba385c32cb671ae03d6fff839b86`
   on both — byte-identical.
-- PNG signature valid, dimensions 1024x1024, 16,253 bytes (limit 1,048,576).
+- PNG signature valid, dimensions 1024x1024, 16,566 bytes (limit 1,048,576).
 - Pixel check: every headline and fact line sits inside its expected band
   (masthead 132–891, lead headline 280–902, all facts within their rows),
   lead headline is red, zero ink in the gaps between rows, no text clipped
